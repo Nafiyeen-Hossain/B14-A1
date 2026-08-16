@@ -307,7 +307,7 @@ nav .nav-bar a{
 
 }
 
-#Speakers .Speakers-container{
+#Speaker .Speaker-container{
 
     background-color: #627382;
     width:100%;
@@ -319,7 +319,7 @@ nav .nav-bar a{
     gap: 44px;
 }
 
-#Speakers .Speakers-container .Speakers-box {
+#Speaker .Speaker-container .Speaker-box {
 
     max-width: 1360px fill ;
     display: flex;
@@ -330,7 +330,7 @@ nav .nav-bar a{
 
 }
 
-#Speakers .Speakers-container .Speakers-box .Speakers-card {
+#Speaker .Speaker-container .Speaker-box .Speaker-card {
 
    padding: 24px;
    max-width: 322px;
@@ -345,7 +345,7 @@ nav .nav-bar a{
 
 }
 
-#Speakers .Speakers-container .Speakers-box .Speakers-card img {
+#Speaker .Speaker-container .Speaker-box .Speaker-card img {
 
     max-width: 44px;
     margin-bottom: 16px;
@@ -354,7 +354,7 @@ nav .nav-bar a{
 
 }
 
-#Speakers .Speakers-container .Speakers-box .Speakers-card h3 {
+#Speaker .Speaker-container .Speaker-box .Speaker-card h3 {
     
     font-size: 24px;
     font-weight: 600;
@@ -365,7 +365,7 @@ nav .nav-bar a{
 
 }
 
-#Speakers .Speakers-container .Speakers-box .Speakers-card p {
+#Speaker .Speaker-container .Speaker-box .Speaker-card p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
