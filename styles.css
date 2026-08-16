@@ -109,7 +109,8 @@ nav {
     align-items: center;
     padding-top: 16px;
     padding-bottom: 16px;
-    padding-right: 120px;
+    padding-right: 60px;
+    padding-left: 60px;
 
 
 }
@@ -190,7 +191,7 @@ nav .nav-bar a{
       rgba(6, 20, 35, 0.35),
       rgba(6, 20, 35, 0.25)
     ),
-  url("./assets/hero-bg.png") center / cover no-repeat;
+  url("./B14-A01-DevConf-2026/assets/banner.jpg") center / cover no-repeat;
   z-index: 0;
 }
 
@@ -306,7 +307,7 @@ nav .nav-bar a{
 
 }
 
-#Notes .Notes-container{
+#Speakers .Speakers-container{
 
     background-color: #627382;
     width:100%;
@@ -318,7 +319,7 @@ nav .nav-bar a{
     gap: 44px;
 }
 
-#Notes .Notes-container .Notes-box {
+#Speakers .Speakers-container .Speakers-box {
 
     max-width: 1360px fill ;
     display: flex;
@@ -329,7 +330,7 @@ nav .nav-bar a{
 
 }
 
-#Notes .Notes-container .Notes-box .Notes-card {
+#Speakers .Speakers-container .Speakers-box .Speakers-card {
 
    padding: 24px;
    max-width: 322px;
@@ -344,7 +345,7 @@ nav .nav-bar a{
 
 }
 
-#Notes .Notes-container .Notes-box .Notes-card img {
+#Speakers .Speakers-container .Speakers-box .Speakers-card img {
 
     max-width: 44px;
     margin-bottom: 16px;
@@ -353,7 +354,7 @@ nav .nav-bar a{
 
 }
 
-#Notes .Notes-container .Notes-box .Notes-card h3 {
+#Speakers .Speakers-container .Speakers-box .Speakers-card h3 {
     
     font-size: 24px;
     font-weight: 600;
@@ -364,7 +365,7 @@ nav .nav-bar a{
 
 }
 
-#Notes .Notes-container .Notes-box .Notes-card p {
+#Speakers .Speakers-container .Speakers-box .Speakers-card p {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
