@@ -274,12 +274,12 @@ nav .nav-bar a{
 
 } */
 
-#about , #resume  {
+#pricing , #resume  {
     padding-top: 130px;
 
 }
 
-#about .about-container {
+#pricing .pricing-container {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
@@ -289,20 +289,20 @@ nav .nav-bar a{
 
 }
 
-#about .about-container .about-info {
+#pricing .pricing-container .pricing-info {
     display: flex;
     justify-content: space-around;
 
 }
 
-#about .about-container .about-info .info-card p{
+#pricing .pricing-container .pricing-info .info-card p{
     font-size: 20px;
     line-height: 30px;
     color: #757575;
 
 }
 
-#about .about-container .about-info .info-card h4 {
+#pricing .pricing-container .pricing-info .info-card h4 {
     font-size: 20px;
 
 }
