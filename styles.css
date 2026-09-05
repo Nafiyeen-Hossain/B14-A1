@@ -274,7 +274,7 @@ nav .nav-bar a{
 
 } */
 
-#pricing , #resume  {
+#pricing , #reviews  {
     padding-top: 130px;
 
 }
@@ -374,13 +374,13 @@ nav .nav-bar a{
 
 }
 
-#resume
+#reviews
 
-#resume .resume-container hr {
+#reviews .reviews-container hr {
     margin: 30px 0;
 }
 
-#resume .resume-container {
+#reviews .reviews-container {
     width: 71%;
     max-width: 1140px;
     margin: 113px auto 0;
@@ -390,7 +390,7 @@ nav .nav-bar a{
 
 }
 
-.resume-container .section-heading {
+.reviews-container .section-heading {
     color: #474747;
     font-size: 30px;
     margin-bottom: 30px;
