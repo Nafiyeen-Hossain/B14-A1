@@ -90,14 +90,6 @@ body {
 }
 
 
-/* header {
-    background-color: #FFFFFF;
-    background: url(../images/developer.png),url(../images/header_bg.png) , #FFFFFF;
-    background-repeat: no-repeat;
-    background-position: top left , bottom right;
-    padding-top: 50px;
-} */
-
 nav {
     /* background-color: #FFF8F3; */
     width: 96%;
@@ -130,9 +122,6 @@ nav .nav-bar a{
     text-decoration: none;
 }
 
-/* nav .nav-bar .btn-align { 
-    
-} */
 
 #banner {
   max-width: 1600px;
@@ -210,20 +199,16 @@ nav .nav-bar a{
 #Speakers .Speakers-container .Speakers-box {
     
     width: 100%;
-    /* max-width: 1321px; */
-    display: flex; /* গ্রিডের বদলে Flexbox */
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* flex-wrap: wrap; জায়গা না থাকলে নিচে নামবে */
-    gap: 32px; /* প্রতিটি কার্ডের মাঝখানের গ্যাপ */
+    gap: 32px; 
     justify-content: space-between;
     padding: 80px 60px 80px 60px;
 }
 
 #Speakers .Speakers-container .Speakers-box .Speakers-card {
 
-   /* padding: 24px; */
-   /* max-width: 322px; */
    background-color: #FFFFFF;
    box-shadow: 0 0px 8px rgba(0,0,0,0.05);
    gap: 32px;
@@ -232,16 +217,13 @@ nav .nav-bar a{
    display: flex;
    flex-direction: column;
    border-radius: 8px;
-   /* flex-wrap: wrap;
-   justify-content: center;
-   align-items: center */
+
 
 }
 
 #Speakers .Speakers-container .Speakers-box .Speakers-card img {
 
     margin-bottom: 16px;
-    /* border-radius: 8px; */
     background-color: #F95555;
     border-radius: 8px;
 
@@ -267,81 +249,6 @@ nav .nav-bar a{
 
 }
 
-
-/* #banner {
-    width: 96%;
-    max-width: 1600px;
-    background-color: #FFFFFF;    
-}
-
-#banner .banner-container {
-   
-    max-width: 1600px;
-    padding-top: 70px;
-    padding-bottom: 134px;
-    padding-left: 120px;
-    padding-right: 120px;
-
-}
-
-#banner .banner-content {
-    width: 85%;
-    max-width: 1360px;
-    margin: 115.5px , 120px , 179.5px , 120px ;    
-}
-
-#banner .banner-content #special {
-   text-align: center;
-}
-
-#banner .banner-content #special h2{
-   text-align: center;
-   margin-left: 565.5px;
-   margin-right: 565.5px;
-}
-
-#banner .banner-content #special h3 {
-    margin: 51px, 295px , 76px , 295px;
-    text-align: center;
-}
-
-#banner .banner-content #special {
-   text-align: center;
-} 
-
-#banner .banner-content .buttons {
-    text-align: center;
-} */
-
-
-/* #banner .banner-image img{
-    max-width: 584px;
-    vertical-align: middle;
-}
-
-#banner .banner-content h2{
-    font-size: 45px;
-    font-weight: 600;
-    color: #474747;
-    margin-bottom: 5px;
-
-}
-
-#banner .banner-content h1{
-    font-size: 85px;
-    font-weight: bold;
-    color: #181818;
-    margin-bottom: 20px;
-
-}
-
-#banner .banner-content p{
-    font-size: 18px;
-    color:  #757575;
-    line-height: 30px;
-    margin-bottom: 30px;
-
-} */
 
 
 
@@ -391,8 +298,6 @@ nav .nav-bar a{
     font-size: 14px;
     line-height: 21px;
     color: #333333;
-    /* margin-top: 20px;
-    margin-bottom: 20px; */
     text-align: left;
     list-style-type: disc #2563EB;
 
@@ -408,8 +313,6 @@ nav .nav-bar a{
     font-size: 14px;
     line-height: 21px;
     color: #888888;
-    /* margin-top: 20px;
-    margin-bottom: 20px; */
     text-align: left;
     list-style-type: disc #60A5FA;
 }
