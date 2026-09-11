@@ -196,7 +196,76 @@ nav .nav-bar a{
 }
 
 
+#Speakers .Speakers-container{
 
+    background-color: #FFFFFF;
+    width:100%;
+    max-width: 1551px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 44px; */
+}
+
+#Speakers .Speakers-container .Speakers-box {
+    
+    width: 100%;
+    /* max-width: 1321px; */
+    display: flex; /* গ্রিডের বদলে Flexbox */
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; জায়গা না থাকলে নিচে নামবে */
+    gap: 32px; /* প্রতিটি কার্ডের মাঝখানের গ্যাপ */
+    justify-content: space-between;
+    padding: 80px 60px 80px 60px;
+}
+
+#Speakers .Speakers-container .Speakers-box .Speakers-card {
+
+   /* padding: 24px; */
+   /* max-width: 322px; */
+   background-color: #FFFFFF;
+   box-shadow: 0 0px 8px rgba(0,0,0,0.05);
+   gap: 32px;
+   margin-top: 56px;
+
+   display: flex;
+   flex-direction: column;
+   border-radius: 8px;
+   /* flex-wrap: wrap;
+   justify-content: center;
+   align-items: center */
+
+}
+
+#Speakers .Speakers-container .Speakers-box .Speakers-card img {
+
+    margin-bottom: 16px;
+    /* border-radius: 8px; */
+    background-color: #F95555;
+    border-radius: 8px;
+
+}
+
+#Speakers .Speakers-container .Speakers-box .Speakers-card h3 {
+    
+    font-size: 24px;
+    font-weight: 600;
+    line-height: auto;
+    color: #001931;
+    text-align: center;
+    align-self: stretch;
+
+}
+
+#Speakers .Speakers-container .Speakers-box .Speakers-card p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: center;
+    align-self: stretch;
+
+}
 
 
 /* #banner {
@@ -274,105 +343,89 @@ nav .nav-bar a{
 
 } */
 
-#pricing , #reviews  {
-    padding-top: 130px;
 
-}
 
 #pricing .pricing-container {
-    width: 71%;
-    max-width: 1140px;
+    width: 100%;
+    max-width: 1551px;
     margin: 0 auto;
-    text-align: center;
-    background-color: #FFF8F3;
-    padding: 131px 156px;
+    text-align: center; 
+    background-color: transparent;
 
 }
 
 #pricing .pricing-container .pricing-info {
+    max-width: 1440px;
     display: flex;
-    justify-content: space-around;
+    padding: 48px 60px 60px 60px;
+    justify-content: center; 
+    box-sizing: border-box;
+    margin: 0 auto;
+    gap: 24px;
 
 }
 
-#pricing .pricing-container .pricing-info .info-card p{
+#pricing .pricing-container .pricing-info .info-card {
     font-size: 20px;
     line-height: 30px;
-    color: #757575;
+    color: #ffffff;
+    box-shadow: 0 0px 8px rgba(0,0,0,0.05);
+    border-radius: 16px;
+    max-width: 370px;
+    width: 100%;
+    padding: 32px 32px 32px 32px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left; 
+    box-sizing: border-box;
 
 }
+
+#pricing .pricing-container .pricing-info .info-card ul {
+    padding-left: 15px;
+}
+
+#pricing .pricing-container .pricing-info .info-card ul li {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    text-align: left;
+    list-style-type: disc #2563EB;
+
+}
+
+
+
+#pricing .pricing-container .pricing-info .info-card:nth-child(2) {
+    background-color: #0D1B2A; 
+}
+
+#pricing .pricing-container .pricing-info .info-card:nth-child(2) ul li{
+    color: #FFFFFF; 
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    text-align: left;
+    list-style-type: disc blue;
+}
+
 
 #pricing .pricing-container .pricing-info .info-card h4 {
     font-size: 20px;
+    margin: 0;
 
 }
 
-#Speakers .Speakers-container{
 
-    background-color: #627382;
-    width:100%;
-    max-width: 1600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px 120px 120px;
-    gap: 44px;
-}
+  
 
-#Speakers .Speakers-container .Speakers-box {
 
-    max-width: 1360px fill ;
-    display: flex;
-    gap: 24px;
-    flex-direction: row;
-    align-items: flex-start;
-    align-self: stretch;
-
-}
-
-#Speakers .Speakers-container .Speakers-box .Speakers-card {
-
-   padding: 24px;
-   max-width: 322px;
-   background-color: #FFFFFF;
-   box-shadow: 0 0px 8px rgba(0,0,0,0.05);
-   gap: 16px;
-
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center
-
-}
-
-#Speakers .Speakers-container .Speakers-box .Speakers-card img {
-
-    max-width: 44px;
-    margin-bottom: 16px;
-    border-radius: 8px;
-    background-color: #F95555;
-
-}
-
-#Speakers .Speakers-container .Speakers-box .Speakers-card h3 {
-    
-    font-size: 24px;
-    font-weight: 600;
-    line-height: auto;
-    color: #001931;
-    text-align: center;
-    align-self: stretch;
-
-}
-
-#Speakers .Speakers-container .Speakers-box .Speakers-card p {
-    font-size: 16px;
-    line-height: 20px;
-    color: #627382;
-    text-align: center;
-    align-self: stretch;
-
-}
 
 #reviews
 
