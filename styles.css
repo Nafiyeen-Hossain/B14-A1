@@ -405,14 +405,13 @@ nav .nav-bar a{
 }
 
 #pricing .pricing-container .pricing-info .info-card:nth-child(2) ul li{
-    color: #FFFFFF; 
     font-size: 14px;
     line-height: 21px;
-    color: #ffffff;
+    color: #888888;
     /* margin-top: 20px;
     margin-bottom: 20px; */
     text-align: left;
-    list-style-type: disc blue;
+    list-style-type: disc #60A5FA;
 }
 
 
@@ -425,54 +424,128 @@ nav .nav-bar a{
 
   
 
+#reviews {
+            background-color: #0b0f19;
+            color: #ffffff;
+            padding: 60px 20px;
+            margin-top: 60px;
+            border-radius: 24px;
+        }
 
+        .reviews-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
 
-#reviews
+        /* Brand Heading Style */
+        .brands-segment .section-heading {
+            color: #8b949e;
+            font-size: 0.85rem;
+            letter-spacing: 1.5px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+        }
 
-#reviews .reviews-container hr {
-    margin: 30px 0;
-}
+        .brands-buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
 
-#reviews .reviews-container {
-    width: 71%;
-    max-width: 1140px;
-    margin: 113px auto 0;
-    display: flex;
-    gap: 24px;
+        .brands-buttons .btn {
+            background-color: #161b22;
+            color: #e6edf3;
+            border: 1px solid #30363d;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s ease, border-color 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
 
+        .brands-buttons .btn:hover {
+            background-color: #21262d;
+            border-color: #58a6ff;
+        }
 
-}
+        .line-break {
+            border: none;
+            height: 1px;
+            background-color: #21262d;
+            margin: 50px auto;
+            max-width: 600px;
+        }
 
-.reviews-container .section-heading {
-    color: #474747;
-    font-size: 30px;
-    margin-bottom: 30px;
-    text-align: left;
-}
+        /* Reviews Heading Style */
+        .reviews-beginning .section-heading {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 35px;
+            color: #ffffff;
+        }
 
-.education-box , .experience-box{
-    max-width: 511px;
-    margin-right: 47px;
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            text-align: left;
+        }
 
-}
+        .reviews-box {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            padding: 25px;
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
 
-.education-box , .experience-box , .card-title {
-    font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #474747;
-}
+        .card-text {
+            color: #c9d1d9;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
 
-.education-box , .experience-box , .card-info {
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 20px;
-    color: #757575;
-}
+        .reviewer-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
 
-.education-box , .experience-box , .card-text {
-    font-size: 16px;
-    line-height: 28px;
-    color: #757575;
+        .avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.85rem;
+            color: #ffffff;
+        }
 
-}
+        .avatar-green { background-color: #238636; }
+        .avatar-blue { background-color: #1f6feb; }
+
+        .reviewer-name {
+            margin: 0;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .reviewer-role {
+            margin: 0;
+            color: #8b949e;
+            font-size: 0.8rem;
+        }
